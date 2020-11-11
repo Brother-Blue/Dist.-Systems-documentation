@@ -1,4 +1,4 @@
-# Team Frosk
+# Group 7
 
 # Table of contents
 1. [Purpose](#purpose)
