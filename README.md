@@ -23,6 +23,9 @@ provides users the opportunity to select from various dentist offices in their a
 We will build a distributed web-application powered by Node.js and Express using the MQTT-protocol. 
 
 ## Requirements (SRS) <a name="requirements"></a>
+[Requierments](/Requirements.md)
+
+[User stories](/UserStories.md)
 
 ## Architecture (SAD) <a name="architecture"></a>
 ![Overview](./images/project.png)
