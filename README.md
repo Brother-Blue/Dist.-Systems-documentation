@@ -34,7 +34,7 @@ First draft of our Architecture for the system:
 
 The system will consist of four different components. 
 * Backend that will take care of the database handling. This is where we will store information about users, dentist offices and appointments. Our first draft of the database looks like this:
-![ER](./images/eeeeeeeer.png)
+![ER](./images/er-diagram.png)
 * UI is the part that our users get in contact with which will contain a map view of Gothenburg that show available time-slots at different dentists. The UI will let the user book appointments at dentist offices with open time-slots.
 * Notifier that will handle email-conformations and other notifications from the system. 
 * Logger that handles the logging of previous events to increase our traceability within the system. 
