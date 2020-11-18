@@ -52,6 +52,7 @@ The whole team will meet up three times a week. Monday and Friday, its just the 
 * The purpose of the Thursday meetings is to report work progress to Product Owner and to receive feedback on the product at hand.
 * The purpose of the Friday meeting is to discuss the work that has been done during the week and to get a collective vision of where we are in the development.
 
+Furthermore the team has agreed on a code of conduct which can be found [here](/TeamContract.md)
 ## Developers <a name="developers"></a>
 
 - [Clementine Jensen](https://github.com/clementinejensen)
