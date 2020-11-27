@@ -29,7 +29,8 @@ We will build a distributed web-application powered by Node.js and Express using
 [User stories](/UserStories.md)
 
 ## Architecture (SAD) <a name="architecture"></a>
-![Overview](./images/functional_decomposition.png)
+![functional_decomposition](./images/functional_decomposition.png)
+![deployment](./images/deployment.png)
 
 First draft of our Architecture for the system:
 
