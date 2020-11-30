@@ -30,7 +30,7 @@ We will build a distributed web-application powered by Node.js and Express using
 
 ## Architecture (SAD) <a name="architecture"></a>
 ![functional_decomposition](./images/functional_decomposition.png)
-![deployment](./images/deployment.png)
+![component_diagram](./images/component_diagram.png)
 
 First draft of our Architecture for the system:
 
