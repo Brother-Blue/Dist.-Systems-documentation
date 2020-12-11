@@ -29,17 +29,25 @@ We will build a distributed web-application powered by Node.js and Express using
 [User stories](/UserStories.md)
 
 ## Architecture (SAD) <a name="architecture"></a>
-![functional_decomposition](./images/functional_decomposition.png)
+
+#### Component diagram:
 ![component_diagram](./images/component_diagram.png)
 
-First draft of our Architecture for the system:
+
+#### Functional functional decomposition diagram:
+![functional_decomposition](./images/functional_decomposition.png)
+
+
+Our Architecture for the system:
 
 The system will consist of four different components. 
-* Backend that will take care of the database handling. This is where we will store information about users, dentist offices and appointments. Our first draft of the database looks like this:
-![ER](./images/er-diagram.png)
-* UI is the part that our users get in contact with which will contain a map view of Gothenburg that show available time-slots at different dentists. The UI will let the user book appointments at dentist offices with open time-slots.
-* Notifier that will handle email-conformations and other notifications from the system. 
-* Logger that handles the logging of previous events to increase our traceability within the system. 
+* AppointmentHandler that will take care of the database handling. This is where we will store information about dentist offices and appointments.
+
+* BookingGUI is the part that our users get in contact with which will contain a map view of Gothenburg that show available time-slots at different dentists. The GUI will let the user book appointments at dentist offices with open time-slots.
+
+* EmailSender that will handle email-conformations and other notifications from the system.
+
+* SystemLogger that handles the logging of previous events to increase our traceability within the system. 
 
 The components mentioned above will mostly communicate through Publish/Subscribe via MQTT. All communications will be handled through a MQTT broker before it is sent to the subscribers. 
 
