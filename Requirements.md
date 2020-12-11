@@ -36,3 +36,25 @@
     1. Include a one hour lunch break, as well as a 30 minute Swedish Fika break.
 
 1. The booking requests shall follow a predefined format, that is handled through the MQTT-middleware.
+
+1. The booking response follow predefined format.
+
+1. The GUI should notify the user if the request was failed or successful depending on the response it recieves.
+
+1. The system shall react to simutaneous bookings by visualizing available time slots.
+
+1. The system shall provide timeslots depending number of dentists in the dentist office.
+
+1. The system shall repsond to changes in openinghours.
+
+1. The system shall allow for additional dentist offices.
+
+1. The system shall react to changes in the DentistRegistry within 10 minutes.
+
+1. The system shall utlize a Request Generator to stress test the system.
+
+1. The system shall send requests that follows the predefined format. 
+
+1. The system shall have fault tolerance mechanism. 
+
+1. The system shall display a visual cue on the map to indicate if a dentist office has available timeslots for a specified date.
