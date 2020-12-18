@@ -36,6 +36,9 @@ We will build a distributed web-application powered by Node.js and Express using
 #### Architectural Styles diagram:
 ![architectural_styles_digram](./images/ArchitecturalStylesDiagram.png)
 
+The Circuit Breaker which can be seen above the Appointment Handler was added as fault tolerance mechanism to measure the load. 
+The reason it is in the appointment handler is due to this being the component with the largest amount of traffic.
+
 #### Functional functional decomposition diagram:
 ![functional_decomposition](./images/functional_decomposition.png)
 
