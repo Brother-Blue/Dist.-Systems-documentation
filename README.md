@@ -33,6 +33,8 @@ We will build a distributed web-application powered by Node.js and Express using
 #### Component diagram:
 ![component_diagram](./images/component_diagram.png)
 
+#### Architectural Styles diagram:
+![architectural_styles_digram](./images/ArchitecturalStylesDiagram.png)
 
 #### Functional functional decomposition diagram:
 ![functional_decomposition](./images/functional_decomposition.png)
