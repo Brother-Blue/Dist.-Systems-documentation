@@ -50,20 +50,20 @@ The system will consist of four different components.
 
 * BookingGUI is the part that our users get in contact with which will contain a map view of Gothenburg that show available time-slots at different dentists. The GUI will let the user book appointments at dentist offices with open time-slots.
 
-* EmailSender that will handle email-conformations and other notifications from the system.
+* EmailSender that will handle email-conformations.
 
 * SystemLogger that handles the logging of previous events to increase our traceability within the system. 
 
-The components mentioned above will mostly communicate through Publish/Subscribe via MQTT. All communications will be handled through a MQTT broker before it is sent to the subscribers. 
+The components mentioned above will communicate through Publish/Subscribe via MQTT. All communications will be handled through a MQTT broker before it is sent to the subscribers. 
 
 As the project moves along this architecture and description will expand and change.
 
 ## Project Management Report (PMR) <a name="pmr"></a>
-In this project endevour the team will follow an agile development process. The team will, once a week, together derive a certain set of user stories from bigger requirements that will be implemented the coming week. During the working week the team is divided up into smaller teams, Frontend, Backend, and if necessary Architecture. The members of each team will change every week in order to deepen the learning. The team will further make use of a Kanbanboard hosted at Trello where work will be distributed in an pull approach. 
+In this project endevour the team will follow an agile development process. The team will, once a week, together derive a certain set of user stories from bigger requirements that will be implemented the coming week. During the working week the team is divided up into smaller teams, Frontend, Backend, and if necessary Architecture. A lot of emphasis will be on pair-programming, this is to ensure efficiency and to maximize the learning throughout the project. The members of each team will change every week in order to deepen the learning. The team will further make use of a Kanbanboard hosted at Trello where work will be distributed in an pull approach.
 
 The whole team will meet up three times a week. Monday and Friday, its just the team that meets and on Wednesday it is a meeting with the team and the Product Owners (TAs and Teachers).
 * The purpose of Monday meetings is to derive more User Stories if there is velocity for it and also discuss requirements changes that might have com up during the weekend.
-* The purpose of the Thursday meetings is to report work progress to Product Owner and to receive feedback on the product at hand.
+* The purpose of the Wednesday meetings is to report work progress to Product Owner and to receive feedback on the product at hand.
 * The purpose of the Friday meeting is to discuss the work that has been done during the week and to get a collective vision of where we are in the development.
 
 Furthermore the team has agreed on a code of conduct which can be found [here](/TeamContract.md)
