@@ -4,7 +4,8 @@
 1. [Purpose](#purpose)
     1. [What](#what)
     2. [Why](#why)
-    2. [How](#how)
+    3. [How](#how)
+    4. [[Developers]](#developers)
 2. [Requirements (SRS)](#requirements)
 3. [Architecture (SAD)](#architecture)
 4. [Project Management Report (PMR)](#pmr) 
@@ -21,7 +22,17 @@ There is a real demand for this kind of system and as of now there is no availab
 provides users the opportunity to select from various dentist offices in their area.
 
 ### How are you going to make it? <a name="how"></a>
-We will build a distributed web-application powered by Node.js and Express using the MQTT-protocol. 
+We will build a distributed web-application powered by Node.js and Express using the MQTT-protocol.
+
+## Developers <a name="developers"></a>
+
+- [Clementine Jensen](https://git.chalmers.se/jensenb)
+- [Christian O'Neill](https://git.chalmers.se/oneillc)
+- [Hjalmar Thunberg](https://git.chalmers.se/hjathu)
+- [Hugo Hempel](https://git.chalmers.se/hugohe)
+- [Linus Ivarsson](https://git.chalmers.se/ilinus)
+- [Linus Åberg](https://git.chalmers.se/linusab)
+
 
 ## Requirements (SRS) <a name="requirements"></a>
 [Requierments](/Requirements.md)
@@ -67,14 +78,6 @@ The whole team will meet up three times a week. Monday and Friday, its just the 
 * The purpose of the Friday meeting is to discuss the work that has been done during the week and to get a collective vision of where we are in the development.
 
 Furthermore the team has agreed on a code of conduct which can be found [here](/TeamContract.md)
-## Developers <a name="developers"></a>
-
-- [Clementine Jensen](https://github.com/clementinejensen)
-- [Christian O'Neill](https://github.com/Brother-Blue)
-- [Hjalmar Thunberg](https://github.com/Hjalmar-Thunberg)
-- [Hugo Hempel](https://github.com/HugoHempel)
-- [Linus Ivarsson](https://github.com/linusivarssons)
-- [Linus Åberg](https://github.com/LinusAaberg)
 
 
 
