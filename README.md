@@ -5,7 +5,8 @@
     1. [What](#what)
     2. [Why](#why)
     3. [How](#how)
-    4. [[Developers]](#developers)
+    4. [Developers](#developers)
+    5. [Team Resources](#team resources)
 2. [Requirements (SRS)](#requirements)
 3. [Architecture (SAD)](#architecture)
 4. [Project Management Report (PMR)](#pmr) 
@@ -33,6 +34,15 @@ We will build a distributed web-application powered by Node.js and Express using
 - [Linus Ivarsson](https://git.chalmers.se/ilinus)
 - [Linus Åberg](https://git.chalmers.se/linusab)
 
+
+## Team Resouces <a name="team resources"></a>
+
+- [Trello](https://trello.com/b/9ccpzxgs/dit-355-2020-team-7)
+- [EmailSender-component](https://git.chalmers.se/courses/dit355/2020/group-7/notifier)
+- [SystemLogger-component](https://git.chalmers.se/courses/dit355/2020/group-7/logger)
+- [AppointmentHandler-component](https://git.chalmers.se/courses/dit355/2020/group-7/backend)
+- [BookingGUI-component](https://git.chalmers.se/courses/dit355/2020/group-7/ui)
+- [RequestGenerator](https://git.chalmers.se/courses/dit355/2020/group-7/requestgenerator)
 
 ## Requirements (SRS) <a name="requirements"></a>
 [Requierments](/Requirements.md)
