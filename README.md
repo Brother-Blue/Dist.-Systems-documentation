@@ -4,7 +4,9 @@
 1. [Purpose](#purpose)
     1. [What](#what)
     2. [Why](#why)
-    2. [How](#how)
+    3. [How](#how)
+    4. [Developers](#developers)
+    5. [Team Resources](#team resources)
 2. [Requirements (SRS)](#requirements)
 3. [Architecture (SAD)](#architecture)
 4. [Project Management Report (PMR)](#pmr) 
@@ -21,7 +23,26 @@ There is a real demand for this kind of system and as of now there is no availab
 provides users the opportunity to select from various dentist offices in their area.
 
 ### How are you going to make it? <a name="how"></a>
-We will build a distributed web-application powered by Node.js and Express using the MQTT-protocol. 
+We will build a distributed web-application powered by Node.js and Express using the MQTT-protocol.
+
+## Developers <a name="developers"></a>
+
+- [Clementine Jensen](https://git.chalmers.se/jensenb)
+- [Christian O'Neill](https://git.chalmers.se/oneillc)
+- [Hjalmar Thunberg](https://git.chalmers.se/hjathu)
+- [Hugo Hempel](https://git.chalmers.se/hugohe)
+- [Linus Ivarsson](https://git.chalmers.se/ilinus)
+- [Linus Åberg](https://git.chalmers.se/linusab)
+
+
+## Team Resouces <a name="team resources"></a>
+
+- [Trello](https://trello.com/b/9ccpzxgs/dit-355-2020-team-7)
+- [EmailSender-component](https://git.chalmers.se/courses/dit355/2020/group-7/notifier)
+- [SystemLogger-component](https://git.chalmers.se/courses/dit355/2020/group-7/logger)
+- [AppointmentHandler-component](https://git.chalmers.se/courses/dit355/2020/group-7/backend)
+- [BookingGUI-component](https://git.chalmers.se/courses/dit355/2020/group-7/ui)
+- [RequestGenerator](https://git.chalmers.se/courses/dit355/2020/group-7/requestgenerator)
 
 ## Requirements (SRS) <a name="requirements"></a>
 [Requierments](/Requirements.md)
@@ -56,8 +77,6 @@ The system will consist of four different components.
 
 The components mentioned above will communicate through Publish/Subscribe via MQTT. All communications will be handled through a MQTT broker before it is sent to the subscribers. 
 
-As the project moves along this architecture and description will expand and change.
-
 ## Project Management Report (PMR) <a name="pmr"></a>
 In this project endevour the team will follow an agile development process. The team will, once a week, together derive a certain set of user stories from bigger requirements that will be implemented the coming week. During the working week the team is divided up into smaller teams, Frontend, Backend, and if necessary Architecture. A lot of emphasis will be on pair-programming, this is to ensure efficiency and to maximize the learning throughout the project. The members of each team will change every week in order to deepen the learning. The team will further make use of a Kanbanboard hosted at Trello where work will be distributed in an pull approach.
 
@@ -67,14 +86,6 @@ The whole team will meet up three times a week. Monday and Friday, its just the 
 * The purpose of the Friday meeting is to discuss the work that has been done during the week and to get a collective vision of where we are in the development.
 
 Furthermore the team has agreed on a code of conduct which can be found [here](/TeamContract.md)
-## Developers <a name="developers"></a>
-
-- [Clementine Jensen](https://github.com/clementinejensen)
-- [Christian O'Neill](https://github.com/Brother-Blue)
-- [Hjalmar Thunberg](https://github.com/Hjalmar-Thunberg)
-- [Hugo Hempel](https://github.com/HugoHempel)
-- [Linus Ivarsson](https://github.com/linusivarssons)
-- [Linus Åberg](https://github.com/LinusAaberg)
 
 
 

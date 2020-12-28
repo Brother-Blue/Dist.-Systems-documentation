@@ -58,3 +58,9 @@
 1. The system shall have fault tolerance mechanism. 
 
 1. The system shall display a visual cue on the map to indicate if a dentist office has available timeslots for a specified date.
+
+1. The system shall utilize Quality of Service to ensure the delivery of messages.
+
+1. The components shall unsubscribe from the MQTT broker when stopped.
+
+1. The components shall be resistant to standard failures, out of bounds inputs and ill-formatted data inputs.
